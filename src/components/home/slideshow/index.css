@@ -1,0 +1,26 @@
+.slide_text {
+    font-size: 15px;
+    /* z-index: 3000; */
+    z-index: 14;
+    min-width: 100%px;
+    max-width: 100%px;
+    white-space: normal;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 3px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.slide_button {
+    background-color: rgb(229, 69, 43);
+    /* color: rgb(229, 69, 43); */
+    font-size: 15px;
+    width: 150px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
