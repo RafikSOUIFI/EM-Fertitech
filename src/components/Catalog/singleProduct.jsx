@@ -119,36 +119,6 @@ const SingleProduct = () => {
                 </li>
                 ))}
               </ul>
-
-              {/* Other details sharing */}
-              <div className="portfolio-item-otherdetails clearfix">
-                <div className="portfolio-item-share clearfix" data-share-title="PARTAGER:">
-                  <a
-                    href="javascript: void(0);"
-                    onClick={() => window.open('https://twitter.com/share?url=http://bioem.com.pe/emcamarontp.html&amp;text=EM•CAMARON®%20es%20un%20inoculante%20biológico%20elaborado%20a%20base%20de%20microorganismos%20con%20acción%20simbiótica.&amp;via=EmtmTecnologia','ventanacompartir', 'toolbar=0, status=0, width=580, height=350')}
-                    title="Partager sur Twitter"
-                    className="portfolio-item-share-twitter"
-                  >
-                    <span className="fab fa-twitter"></span>
-                  </a>
-                  <a
-                    href="javascript: void(0);"
-                    onClick={() => window.open('http://www.facebook.com/sharer.php?u=http://bioem.com.pe/emcamarontp.html','ventanacompartir', 'toolbar=0, status=0, width=580, height=650')}
-                    title="Partager sur Facebook"
-                    className="portfolio-item-share-facebook"
-                  >
-                    <span className="fab fa-facebook-f"></span>
-                  </a>
-                  <a
-                    href="javascript: void(0);"
-                    onClick={() => window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A//bioem.com.pe/acuicultura.html?q01?','ventanacompartir', 'toolbar=0, status=0, width=580, height=650')}
-                    title="Partager sur Linkedin"
-                    className="portfolio-item-share-linkedin"
-                  >
-                    <span className="fab fa-linkedin-in"></span>
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
 

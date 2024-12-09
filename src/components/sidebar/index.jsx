@@ -54,33 +54,24 @@ function Sidebar({isSideBarOpen, setIsSideBarOpen}) {
             <li className="menu-item-has-children">
                 <a href="catalogue">Catalogue</a>
             </li>
-            {/* <li className="menu-item-has-children menu-item-mega-parent">
-                <a href="distribuidores.html">Representantes</a>
-            </li> */}
-            {/* <li className="menu-item-has-children menu-item-mega-parent">
-                <a href="noticias.html">Noticias</a>
-            </li> */}
             <li className="menu-item-has-children menu-item-mega-parent">
                 <a href="contact">Contact</a>
             </li>
             <li className="footer-menu">
                 <span className="title green">Contactez-nous à:</span>
                 <span className="sub-title">
-                    <a href="administration@emfertitech.com">administration@emfertitech.com</a>
+                    <a href="mailto:administracion@emfertitech.com">administration@emfertitech.com</a>
                 </span>
-                <a href="https://api.whatsapp.com/send?phone=+51943603740&amp;text=Hola%20me%20gusta%c3%ada%20saber%20m%c3%a1s%20de%20Bioem" target="_self" title="Whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=+21628642884&amp;text=Bonjour%2C%20j%27aimerais%20en%20savoir%20plus%20sur%20EM%20Fertitech" target="_blank" rel="noopener noreferrer" title="Whatsapp">
                     <i className="fab fa-whatsapp"></i>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=61564874696176" target="_self" title="Facebook">
+                <a href="https://www.facebook.com/profile.php?id=61564874696176" target="_blank" rel="noopener noreferrer" title="Facebook">
                     <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.instagram.com/emro_japan/" target="_self" title="Instagram">
+                <a href="https://www.instagram.com/emro_japan/" target="_blank" rel="noopener noreferrer" title="Instagram">
                     <i className="fab fa-instagram"></i>
                 </a>
-                <a href="https://twitter.com/EmtmTecnologia" target="_self" title="Twitter">
-                    <i className="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.youtube.com/channel/UCQtVF4Vgg1iKWf3YhuTVotA" target="_self" title="Youtube">
+                <a href="https://www.youtube.com/channel/UC_7veybfIf04vSHvkywl9Uw" target="_blank" rel="noopener noreferrer" title="Youtube">
                     <i className="fab fa-youtube"></i>
                 </a>
             </li>

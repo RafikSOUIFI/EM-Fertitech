@@ -32,7 +32,7 @@ const productsData = [
     imgSrc: "images/productos/Actisol_20lt.png",
     altText: "EM•Actisol®",
     title: "EM•Actisol®",
-    category: "Production animale"
+    category: "Agriculture"
   },
   {
     id: 4,
@@ -43,21 +43,22 @@ const productsData = [
     category: "Agriculture"
   },
   {
-    id: 7,
-    link: "/emagua",
-    imgSrc: EM_AGUA,
-    altText: "EM•AGUA®",
-    title: "EM•AGUA®",
-    category: "Medio Ambiente"
+    id: 5,
+    link: "/ActiCal",
+    imgSrc: "images/productos/ActiCal_collection.png",
+    altText: "ActiCal®",
+    title: "ActiCal",
+    category: "Agriculture"
   },
   // {
-  //   id: 8,
-  //   link: "/proem1",
-  //   imgSrc: PRO_EM_1,
-  //   altText: "PRO•EM-1®",
-  //   title: "PRO•EM-1®",
-  //   category: "Salud y Bienestar"
-  // }
+  //   id: 7,
+  //   link: "/emagua",
+  //   imgSrc: EM_AGUA,
+  //   altText: "EM•AGUA®",
+  //   title: "EM•AGUA®",
+  //   category: "Medio Ambiente"
+  // },
+
 ];
 
 const products = [
@@ -109,26 +110,6 @@ const products = [
     description: "EM.Actisol est un fertilisant organique enrichi en micro-organismes bénéfiques EM®, conçu pour améliorer la fertilité des sols et favoriser la croissance des cultures. Grâce à sa composition unique, il fournit une énergie rapide et facilement assimilable par les plantes, tout en stimulant l’activité microbienne bénéfique dans le sol. Ses propriétés chélatantes permettent aux nutriments de devenir facilement assimilables par les racines, garantissant une disponibilité rapide des minéraux et leur stabilité dans le sol pour une absorption prolongée. Enrichi en matière organique (25 %) et micro-organismes EM®, EM.Actisol contribue à une composition optimale de la flore du sol, améliorant ainsi la santé et la productivité des cultures.",
     benefits: ["Optimisation des sols : améliore la composition de la flore microbienne et stimule la vie du sol.","Disponibilité des nutriments : garantit une absorption rapide et efficace des minéraux essentiels par les plantes.","Effet biostimulant : favorise la croissance des cultures et leur développement harmonieux.","Polyvalence d’utilisation : utilisable par fertirrigation, aspersion, irrigation traditionnelle ou application foliaire.","Respect des cycles naturels : soutient la décomposition naturelle et la formation d’humus.","Compatibilité étendue : compatible avec des produits phytosanitaires et nutritionnels non alcalins."]
   },
-  // {
-  //   category: "environnement",
-  //   date: "12/26/2017",
-  //   name: "emagua",
-  //   link: "/emagua",
-  //   imgSrc: "images/productos/emagua-fam-acu.jpg",
-  //   imgAlt: "EM•AGUA®",
-  //   title: "EM•AGUA®",
-  //   description: "es un inoculante biológico elaborado a base de microorganismos con acción..."
-  // },
-  // {
-  //   category: "santé",
-  //   date: "12/27/2017",
-  //   name: "proem1",
-  //   link: "/proem1",
-  //   imgSrc: "images/productos/proem1-salud-small.jpg",
-  //   imgAlt: "PRO•EM-1®",
-  //   title: "PRO•EM-1®",
-  //   description: "Es una bebida elaborada a base de microorganismos probióticos y beneficiosos para el ..."
-  // }
 ];
 
 
